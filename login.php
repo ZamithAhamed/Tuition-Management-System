@@ -20,6 +20,7 @@ ob_end_flush();
  	
 
 <?php include('./header.php'); ?>
+
 <?php 
 if(isset($_SESSION['login_id']))
 header("location:index.php?page=home");
@@ -75,6 +76,10 @@ header("location:index.php?page=home");
 
 
 </body>
+
+
+	
+
 <script>
 	$('#login-form').submit(function(e){
 		e.preventDefault()
@@ -100,5 +105,5 @@ header("location:index.php?page=home");
 			}
 		})
 	})
-</script>	
+</script>
 </html>

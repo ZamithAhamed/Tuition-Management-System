@@ -21,13 +21,14 @@ foreach($qry->fetch_array() as $k => $val){
             </div>
             <div class="form-group">
                 <label for="" class="control-label">Level</label>
-                <input type="text" class="form-control" name="level"  value="<?php echo isset($level) ? $level :'' ?>" required>
+                <input type="text" class="form-controls" name="level"  value="<?php echo isset($level) ? $level :'' ?>" required>
             </div>
             <div class="form-group">
                 <label for="" class="control-label">Description</label>
                 <textarea name="description" id="" cols="30" rows="4" class="form-control" required=""><?php echo isset($description) ? $description :'' ?></textarea>
             </div>
         </div>
+        <span style="float: right;">
         <div class="col-lg-6">
             <h5><b>Fee Details</b></h5>
             <hr>
@@ -91,6 +92,7 @@ foreach($qry->fetch_array() as $k => $val){
                 </tfoot>
             </table>
         </div>
+        </span>
         </div>
     </form>
 </div>

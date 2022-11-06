@@ -71,12 +71,14 @@
 	          </li>
 	      	  </div>
 	          <li>
+	          	<?php if($_SESSION['login_type'] == 1): ?>
 	          	Systems
 	          </li>
 	          <div class="mx-4 text-white">
 	          <li>
               <a href="index.php?page=users"><span class='icon-field'><i class="fa fa-users "></i></span> Users</a>
 	          </li>
+	          	<?php endif; ?>
 	    	  </div>
 	        </ul>
 

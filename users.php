@@ -4,15 +4,20 @@
 
 <div class="container-fluid">
 	
-	<div class="row">
 	<div class="col-lg-12">
-			<button class="btn btn-primary float-right btn-sm" id="new_user"><i class="fa fa-plus"></i> New user</button>
-	</div>
-	</div>
-	<br>
+		<div class="row mb-4 mt-4">
+			<div class="col-md-12">
+				
+			</div>
+		</div>
+		<div class="row">
+
+
 	<div class="col-lg-12">
 		<div class="card ">
-			<div class="card-header"><b>User List</b></div>
+			<div class="card-header"><b>User List</b>
+				<span class="float:right"><button class="btn btn-primary float-right btn-sm" id="new_user"><i class="fa fa-plus"></i> New user</button></span>
+			</div>
 			<div class="card-body">
 				<table class="table-striped table-bordered">
 			<thead>
@@ -67,6 +72,8 @@
 		</table>
 			</div>
 		</div>
+	</div>
+	</div>
 	</div>
 
 </div>
