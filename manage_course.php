@@ -34,7 +34,7 @@ foreach($qry->fetch_array() as $k => $val){
             <hr>
             <div class="row">
                 <div class="form-group">
-                    <label for="ft" class="control-label">Fee Type</label>
+                    <label for="ft" class="control-label">Description</label>
                     <input type="text" id="ft" class="form-control-sm">
                 </div>
                 <div class="form-group">
@@ -51,7 +51,7 @@ foreach($qry->fetch_array() as $k => $val){
                 <thead>
                     <tr>
                         <th width="5%"></th>
-                        <th width="50%">Type</th>
+                        <th width="50%">Description</th>
                         <th width="45%">Amount</th>
                     </tr>
                 </thead>

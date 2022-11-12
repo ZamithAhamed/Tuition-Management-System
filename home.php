@@ -42,7 +42,7 @@
             
             <div class="card">
                 <div class="card-body">
-                    <h3><?php echo "Welcome back ". $_SESSION['login_name']."!"  ?></h3>
+                    <h3><?php echo "Welcome ". $_SESSION['login_name']."!"  ?></h3>
                     <hr>
                 </div>
             </div>  

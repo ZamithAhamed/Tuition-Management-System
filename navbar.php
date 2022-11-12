@@ -46,7 +46,7 @@
 	            <a href="index.php?page=home" ><span class='icon-field'><i class="fa fa-tachometer-alt "></i></span> Dashboard</a>
 	          </li>
 	          <li>
-	              <a href="index.php?page=fees"><span class='icon-field'><i class="fa fa-money-check "></i></span> Student Fees</a>
+	              <a href="index.php?page=fees"><span class='icon-field'><i class="fa fa-money-check "></i></span> Enrollment</a>
 	          </li>
 	          <li>
               <a href="index.php?page=payments"><span class='icon-field'><i class="fa fa-receipt "></i></span> Payments</a>
