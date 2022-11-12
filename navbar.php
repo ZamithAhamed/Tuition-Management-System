@@ -82,7 +82,7 @@
 	    	  </div>
 	        </ul>
 
-	        <!-- <div class="mb-5">
+	         <!-- <div class="mb-5">
 						<h3 class="h6 mb-3">Subscribe for newsletter</h3>
 						<form action="#" class="subscribe-form">
 	            <div class="form-group d-flex">
@@ -90,13 +90,13 @@
 	              <input type="text" class="form-control" placeholder="Enter Email Address">
 	            </div>
 	          </form>
-					</div> 
+			 </div> 
 
 	        <div class="footer">
 	        	<p>
 						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
 						</p>
-	        </div>-->
+	        </div> -->
 
 	      </div>
     	</nav>

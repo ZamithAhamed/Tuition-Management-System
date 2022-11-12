@@ -38,7 +38,7 @@
 								<tr>
 									<th class="text-center">#</th>
 									<th class="">ID No.</th>
-									<th class="">EF No.</th>
+									<th class="">Enrolment No.</th>
 									<th class="">Name</th>
 									<th class="">Payable Fee</th>
 									<th class="">Paid</th>

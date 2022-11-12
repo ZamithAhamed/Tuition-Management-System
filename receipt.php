@@ -42,7 +42,7 @@ while($row=$payments->fetch_array()){
 	<hr>
 	<div class="flex">
 		<div class="w-50">
-			<p>EF. No: <b><?php echo $ef_no ?></b></p>
+			<p>Enrolment No: <b><?php echo $ef_no ?></b></p>
 			<p>Student: <b><?php echo ucwords($sname) ?></b></p>
 			<p>Course/Level: <b><?php echo $class ?></b></p>
 		</div>

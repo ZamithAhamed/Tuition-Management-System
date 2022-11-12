@@ -41,10 +41,18 @@
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-    <script type="text/javascript" src="assets/js/select2.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.datetimepicker.full.min.js"></script>
-    <script type="text/javascript" src="assets/font-awesome/js/all.min.js"></script>
+  <script type="text/javascript" src="assets/js/select2.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.datetimepicker.full.min.js"></script>
+  <script type="text/javascript" src="assets/font-awesome/js/all.min.js"></script>
   <script type="text/javascript" src="assets/js/jquery-te-1.4.0.min.js" charset="utf-8"></script>
+
+  <script>
+              var date = new Date();
+              var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
+              var current_time = date.getHours()+":"+date.getMinutes()+":"+ date.getSeconds();
+              var date_time = current_date+" "+current_time;  
+              document.getElementById("date").innerHTML = date_time;
+            </script>
 
 
 
