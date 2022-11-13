@@ -115,7 +115,7 @@
 		
 	})
 	$('#new_fees').click(function(){
-		uni_modal("Enroll Student ","manage_fee.php","mid-large")
+		uni_modal("Enroll Student ","new_fee.php","mid-large")
 		
 	})
 	$('.edit_fees').click(function(){

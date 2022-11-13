@@ -8,12 +8,12 @@ if(isset($_GET['id'])){
 }
 ?>
 <div class="container-fluid">
-	<form id="manage-fees">
+	<form id="new-fees">
 		<div id="msg"></div>
 		<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
 		 <div class="form-group">
             <label for="" class="control-label">Enrollment No.</label>
-            <input type="text" class="form-control" name="ef_no"  value="<?php echo isset($ef_no) ? $ef_no :'' ?>" required readonly>
+            <input type="text" class="form-control" name="ef_no"  value="<?php echo (new DateTime())->setTimezone(new DateTimeZone('Asia/Colombo'))->format('Y-mdHis'); ?>" required readonly>
         </div>
 		<div class="form-group">
 			<label for="" class="control-label">Student</label>
@@ -54,7 +54,7 @@ if(isset($_GET['id'])){
 		var amount= $('#course_id option[value="'+$(this).val()+'"]').attr('data-amount')
 		$('[name="total_fee"]').val(parseFloat(amount).toLocaleString('en-US',{style:'decimal',maximumFractionDigits:2,minimumFractionDigits:2}))
 	})
-	$('#manage-fees').submit(function(e){
+	$('#new-fees').submit(function(e){
 		e.preventDefault()
 		start_load()
 		$.ajax({

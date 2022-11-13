@@ -33,15 +33,15 @@ header("location:index.php?page=home");
 
 </head>
 
-<body class="img js-fullheight" style="background-image: url(assets/login/images/bg.jpg);">
+<body class="img js-fullheight" style="background-image: url(assets/login/bg.jpg);">
 	<section class="ftco-section">
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-6 text-center mb-5">
+			<div class="row">
+				<div class="col-md-6 mb-4">
 					<h2 class="heading-section"><?php echo $_SESSION['system']['name'] ?></h2>
 				</div>
 			</div>
-			<div class="row justify-content-center">
+			<div class="row">
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
 		      	<h3 class="mb-4 text-center">Login</h3>
