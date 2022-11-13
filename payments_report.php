@@ -20,7 +20,7 @@
                             <th class="text-center">#</th>
                             <th class="">Date</th>
                             <th class="">ID No.</th>
-                            <th class="">EF No.</th>
+                            <th class="">Enrollment No.</th>
                             <th class="">Name</th>
                             <th class="">Paid Amount</th>
                             <th >Remarks</th>
@@ -38,7 +38,7 @@
 			          <tr>
                         <td class="text-center"><?php echo $i++ ?></td>
                         <td>
-                            <p> <b><?php echo date("M d,Y H:i A",strtotime($row['id_no'])) ?></b></p>
+                            <p> <b><?php echo date("M d,Y H:i A",strtotime($row['date_created'])) ?></b></p>
                         </td>
                         <td>
                             <p> <b><?php echo $row['id_no'] ?></b></p>

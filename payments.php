@@ -22,7 +22,7 @@
 									<th class="text-center">#</th>
 									<th class="">Date</th>
 									<th class="">ID No.</th>
-									<th class="">EF No.</th>
+									<th class="">Enrollment No.</th>
 									<th class="">Name</th>
 									<th class="">Paid Amount</th>
 									<th class="text-center">Action</th>

@@ -51,7 +51,7 @@ header("location:index.php?page=home");
 		      		</div>
 	            <div class="form-group">
 	              <input id="password" name="password" type="password" class="form-control" placeholder="Password" required>
-	              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+	              <span toggle="#password" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 	            </div>
 	            <div class="form-group">
 	            	<button type="submit" class="form-control btn btn-primary submit px-3">Sign In</button>
