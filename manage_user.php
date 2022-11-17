@@ -50,6 +50,34 @@ foreach($user->fetch_array() as $k =>$v){
 	$('#manage-user').submit(function(e){
 		e.preventDefault();
 		start_load()
+
+		if(document.getElementById("name").value == ""){
+            alert_toast("Please Enter Name",'warning')
+            end_load()
+            return false;
+        }
+
+        var regex = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/ ;
+        if(!regex.test(document.getElementById("name").value)){
+            alert_toast("Invalid Name",'danger')
+            end_load()
+            return false;
+        }
+
+        if(document.getElementById("username").value == ""){
+            alert_toast("Please Enter Username",'warning')
+            end_load()
+            return false;
+        }
+
+        // var regex = /^[A-Za-z]+[A-Za-z0-9_]+$/ ;
+        // if(!regex.test(document.getElementById("username").value)){
+        //     alert_toast("Invalid Username",'danger')
+        //     end_load()
+        //     return false;
+        // }
+
+
 		$.ajax({
 			url:'ajax.php?action=save_user',
 			method:'POST',
